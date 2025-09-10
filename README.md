@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-        }
+            font-family: 'Arial', sans-serif}
         .hero-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
@@ -167,5 +165,3 @@
     </script>
 </body>
 </html>
-</content>
-</create_file>
