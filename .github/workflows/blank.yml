@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicio profesional para crear sitios web personalizados para locales, empresas y restaurantes. Contáctanos en tuimagenpropia@gmail.com para diseños atractivos y funcionales.">
+    <meta name="keywords" content="desarrollo web, sitios web, locales, empresas, restaurantes, diseño web, tuimagenpropia@gmail.com">
+    <meta name="author" content="Tú Imagen Propia">
+    <title>Servicio de Creación de Sitios Web | Tú Imagen Propia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-gray-800">Tú Imagen Propia</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#servicios" class="text-gray-700 hover:text-blue-600 transition">Servicios</a>
+                    <a href="#contacto" class="text-gray-700 hover:text-blue-600 transition">Contacto</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="#servicios" class="block py-2 text-gray-700 hover:text-blue-600">Servicios</a>
+                <a href="#contacto" class="block py-2 text-gray-700 hover:text-blue-600">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">Crea tu Sitio Web Profesional</h2>
+            <p class="text-lg md:text-xl mb-8">Ofrecemos servicios de diseño y desarrollo de sitios web personalizados para locales, empresas y restaurantes. Haz que tu negocio brille en línea con una presencia web atractiva y funcional.</p>
+            <a href="#servicios" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition">Descubre Nuestros Servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Nuestros Servicios</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="service-card bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/24615ba1-6f9d-4a16-b0ad-2a768e1e79df.png" alt="Vista de un moderno local comercial con escaparates amplios, iluminación LED y elementos de diseño contemporáneo para destacar el negocio en la ciudad" class="w-full h-48 object-cover rounded-t-md onerror-handler" onload="this.classList.add('visible')" style="display: block;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="fallback bg-gray-200 h-48 flex items-center justify-center rounded-t-md" style="display: none;">
+                            <span class="text-gray-600">Imagen de local comercial</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Sitios Web para Locales</h4>
+                    <p class="text-gray-700 mb-4">Diseñamos páginas web atractivas para locales comerciales, optimizadas para atraer clientes locales y mejorar la visibilidad en búsquedas.</p>
+                    <ul class="text-sm text-gray-600 mb-4">
+                        <li>- Diseño responsivo</li>
+                        <li>- Integración con redes sociales</li>
+                        <li>- Optimización SEO local</li>
+                    </ul>
+                </div>
+                <div class="service-card bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3594a50a-b67e-438f-a4c9-0ce194140aff.png" alt="Oficina corporativa elegante con muebles modernos, pantallas de computadora y presentaciones visuales de estrategias de negocio para una empresa exitosa" class="w-full h-48 object-cover rounded-t-md onerror-handler" onload="this.classList.add('visible')" style="display: block;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="fallback bg-gray-200 h-48 flex items-center justify-center rounded-t-md" style="display: none;">
+                            <span class="text-gray-600">Imagen de empresa corporativa</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Sitios Web para Empresas</h4>
+                    <p class="text-gray-700 mb-4">Creamos plataformas web profesionales para empresas, incluyendo e-commerce, blogs y portales interactivos que impulsan el crecimiento empresarial.</p>
+                    <ul class="text-sm text-gray-600 mb-4">
+                        <li>- Funcionalidades avanzadas</li>
+                        <li>- Seguridad integrada</li>
+                        <li>- Analíticas integradas</li>
+                    </ul>
+                </div>
+                <div class="service-card bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c241ff7c-4f87-4b19-9bf1-da50aaa2aac8.png" alt="Restaurante acogedor con mesas arregladas, iluminación cálida y platos de comida gourmet sobre mantel blanco para atraer comensales" class="w-full h-48 object-cover rounded-t-md onerror-handler" onload="this.classList.add('visible')" style="display: block;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="fallback bg-gray-200 h-48 flex items-center justify-center rounded-t-md" style="display: none;">
+                            <span class="text-gray-600">Imagen de restaurante</span>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Sitios Web para Restaurantes</h4>
+                    <p class="text-gray-700 mb-4">Desarrollamos sitios web para restaurantes con menús interactivos, reservas en línea y galería de fotos para aumentar las reservas y promociones.</p>
+                    <ul class="text-sm text-gray-600 mb-4">
+                        <li>- Menú en línea</li>
+                        <li>- Sistema de reservas</li>
+                        <li>- Integración con delivery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">Contáctanos</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg text-gray-700 mb-4">¿Interesado en nuestro servicio? Envíanos un mensaje y te responderemos pronto para discutir tu proyecto.</p>
+                    <div class="text-center md:text-left">
+                        <p class="text-gray-600 mb-2">Email: <strong>túimagenpropia@gmail.com</strong></p>
+                        <p class="text-gray-600 mb-4">Somos un equipo dedicado a crear experiencias web únicas.</p>
+                    </div>
+                </div>
+                <div>
+                    <form id="contact-form" class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Nombre</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Mensaje</label>
+                            <textarea id="message" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>© 2023 Tú Imagen Propia. Todos los derechos reservados.</p>
+            <p class="mt-2">Haz que tu negocio destaque en el mundo digital.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            const body = `Nombre: ${name}%0AEmail: ${email}%0AMensaje: ${message}`;
+            window.open(`mailto:túimagenpropia@gmail.com?subject=Consulta%20para%20creación%20de%20sitio%20web&body=${body}`, '_blank');
+            alert('Tu mensaje se abrirá en tu cliente de email. ¡Gracias por contactarnos!');
+        });
+    </script>
+</body>
+</html>
+</content>
+</create_file># This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
