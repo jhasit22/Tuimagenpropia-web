@@ -9,9 +9,9 @@
     <title>Servicio de Creación de Sitios Web | Tú Imagen Propia</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-        }
+    body {
+            font-family: 'Arial', sans-serif; 
+         }
         .hero-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
